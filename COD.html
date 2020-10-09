@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lan="en">
+
+<head>
+  <title>Home Automation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/67462c1432.js" crossorigin="anonymous"></script>
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+  <link rel="stylesheet" type="text/css" href="COD.css">
+  <link rel="stylesheet" type="text/css" href="COD(Responsive).css">
+</head>
+
+<body>
+  <header class="header-fixed" id="header">
+    <div class="logo">
+      <a href="" class="logo-l"><span class="img">Knight's Network</span></a>
+    </div>
+    <div class="navbar">
+      <ol class="links">
+        <li><a href="#home" class="border-bt">Home</a></li>
+        <li><a href="#" class="border-bt">Blog</a></li>
+        <li><a href="#" class="border-bt">Tools</a></li>
+        <li><a href="#" class="border-bt">Why Choose Us!</a></li>
+        <li><a href="#contact-us" class="border-bt">Contact Us</a></li>
+      </ol>
+    </div>
+  </header>
+
+  <section id="home" class="">
+    <div id="section-lay">
+      <!-- <span id="straight-line"></span> -->
+      <div id="sec-content">
+        <h3 class="">Home Automation</h3>
+        <span class="">
+          <!-- When its Designed Right, Built Right and Installed Right... It Runs Right. -->
+          An automated production line is comprised of a series of workstations linked by a transfer system and an electrical control system.
+        </span>
+        <div class="doc-link">
+          <a href="https://en.wikipedia.org/wiki/Home_automation" target="_blank">
+            <i class="fa fa-file-text" aria-hidden="true"></i>
+            Documentation
+          </a>
+          <a href="#">
+            <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+            Go To Tutorial
+          </a>
+        </div>
+      </div>
+      <div id="goto">
+        Not Have Any Access?
+        <div>
+          <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Sign Up
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section id="tutorial">
+    <div id="tutorial-lay">
+    </div>
+  </section> -->
+
+  <section id="contact-us" class="">
+    <div id="contact-lay">
+      <div class="cont-head">
+        <div id="cont-head-top">
+          Contact Us
+        </div>
+        <div id="cont-head-bott">
+          <span id="line"></span>Have a project ?
+        </div>
+      </div>
+
+
+      <div class="cont-body">
+        <div id="body-left">
+          <div>What can we do for you?</div>
+          <div id="body-left-catg">
+            <form>
+              <div class="opt">
+                <input type="button" value="Design">
+                <input type="button" value="Development">
+                <input type="button" value="Deployment">
+                <input type="button" value="Others">
+              </div>
+              <div class="form">
+                <div id="align-form">
+                  <div class="inp-field">
+                    <input type="text" id="name" autocomplete="off" required="" />
+                    <label for="name">Your Name</label>
+                  </div>
+                  <div class="inp-field">
+                    <input type="email" id="email" autocomplete="off" required="" />
+                    <label for="email">Your Email</label>
+                  </div>
+                </div>
+                <div id="align-form">
+                  <div class="inp-field">
+                    <input type="text" id="project" autocomplete="off" required="" />
+                    <label for="project">Your Project</label>
+                  </div>
+                </div>
+              </div>
+              <div class="inp-btn">
+                <input type="button" value="Send Request" />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div id="body-right">
+          <div id="body-right-up">Tell us about your vision: which challenges are you facing? What are
+            your goals and expectation? What would success look and how much are
+            you planning to spend to get there?</div>
+          <div id="body-right-down">
+            <div> <ul class="social">
+              <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f" style="color: #3d5b99"></i></a></li>
+              <li><a href="https://www.instagram.com/techknightsindia/" target="_blank"><i class="fab fa-instagram" style="background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); -webkit-background-clip: text; background-clip: text;
+              -webkit-text-fill-color: transparent;" aria-hidden="true"></i></a></li>
+              <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter" style="color: #1da1f2;"></i></a></li>
+              <li><a href="https://in.linkedin.com" target="_blank"><i class="fab fa-linkedin-in" style="color: #2867b2;"></i></a></li>
+            </ul> </div>
+            <div style="color:#48562f; padding-top: 30px ;font-size: 1.2rem"><span style="color: #fff">Mobile No :-</span> <span style="text-decoration: underline">89500XXXXX</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    window.addEventListener("scroll", function() {
+      var nav = document.querySelector("header");
+      nav.classList.toggle("sticky", window.scrollY > 0);
+    })
+  </script>
+</body>
+
+</html>
